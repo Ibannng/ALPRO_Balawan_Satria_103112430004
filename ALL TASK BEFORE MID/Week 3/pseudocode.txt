@@ -1,0 +1,29 @@
+Program CekKelulusanCumlaude
+
+Kamus
+   semester, eprtScore : integer
+   result : boolean
+
+Fungsi isCumlaude(semester, eprtScore : integer) -> boolean
+   return (semester <= 8) AND (eprtScore >= 500)
+
+Algoritma
+   Output("Masukkan jumlah semester dan skor EPrT (pisahkan dengan spasi): ")
+   Input(semester, eprtScore)
+   
+   result <- isCumlaude(semester, eprtScore)
+
+   Output("Masukan: ", semester, eprtScore)
+   Output("Keluaran: ", result)
+
+   Jika result = TRUE Maka
+      Output("Penjelasan: mahasiswa lulus cumlaude dengan kuliah selama ", semester, " semester dan EPrT ", eprtScore)
+   Else
+      Jika semester > 8 Maka
+         Output("Penjelasan: tidak cumlaude karena kuliah hingga ", semester, " semester")
+      Else
+         Output("Penjelasan: tidak cumlaude karena nilai EPrT ", eprtScore, " kurang dari 500")
+      End If
+   End If
+
+End Program

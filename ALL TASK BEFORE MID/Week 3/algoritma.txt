@@ -1,0 +1,10 @@
+Mulai.
+Deklarasikan fungsi isCumlaude(semester, eprtScore) yang akan memeriksa apakah seorang mahasiswa lulus dengan status cumlaude berdasarkan jumlah semester dan nilai EPrT. Syarat cumlaude adalah:
+    Semester tidak lebih dari 8.
+    Nilai EPrT minimal 500.
+Input semester dan eprtScore dari pengguna.
+Panggil fungsi isCumlaude(semester, eprtScore) untuk memeriksa apakah syarat cumlaude terpenuhi.
+Tampilkan hasil input, status kelulusan cumlaude, dan penjelasan:
+    Jika cumlaude, tampilkan pesan bahwa mahasiswa lulus cumlaude.
+    Jika tidak, tampilkan alasan, yaitu apakah jumlah semester terlalu lama atau nilai EPrT kurang dari 500.
+Selesai.

@@ -1,0 +1,21 @@
+Mulai.
+Definisikan tipe data Investasi untuk menyimpan informasi berikut:
+    hargaBeli: Harga beli per saham.
+    hargaJual: Harga jual per saham.
+    jumlahSaham: Jumlah saham yang dibeli.
+    totalInvestasi: Total biaya pembelian saham.
+    totalPenjualan: Total pendapatan dari penjualan saham.
+keuntunganKotor: Keuntungan tanpa memperhitungkan biaya transaksi dan pajak.
+biayaTransaksi: Biaya transaksi yang dihitung sebesar 0,2% dari total penjualan.
+pajakKeuntungan: Pajak keuntungan sebesar 10% dari keuntungan kotor.
+keuntunganBersih: Keuntungan bersih setelah dikurangi biaya transaksi dan pajak.
+Ambil input dari pengguna untuk hargaBeli, hargaJual, dan jumlahSaham.
+Hitung nilai-nilai terkait:
+    totalInvestasi = hargaBeli * jumlahSaham
+    totalPenjualan = hargaJual * jumlahSaham
+    keuntunganKotor = totalPenjualan - totalInvestasi
+    biayaTransaksi = 0,002 * totalPenjualan
+    pajakKeuntungan = 0,1 * keuntunganKotor
+    keuntunganBersih = keuntunganKotor - biayaTransaksi - pajakKeuntungan
+Tampilkan hasil perhitungan, termasuk total investasi awal, total penjualan, keuntungan kotor, biaya transaksi, pajak keuntungan, dan keuntungan bersih.
+Selesai.

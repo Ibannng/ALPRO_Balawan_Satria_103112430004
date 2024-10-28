@@ -1,0 +1,7 @@
+Mulai.
+Input bilangan bulat positif N dari pengguna.
+Untuk setiap bilangan d dari 1 hingga N, lakukan langkah berikut:
+    Jika N habis dibagi d (dengan sisa nol), maka d adalah faktor dari N, atur variabel s menjadi true.
+    Jika tidak, d bukan faktor dari N, atur variabel s menjadi false.
+Tampilkan nilai d bersama status s (apakah d adalah faktor atau bukan).
+Selesai.

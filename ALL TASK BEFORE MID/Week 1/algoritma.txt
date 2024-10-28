@@ -1,0 +1,7 @@
+1.mulai
+2.siapkan kalkulator
+3.tentukan berapa penumpang (n)
+4.lalu tentukan berat tiap koper
+5.jumlahkan berat tiap koper sebagai rata rata
+6.bagikan rata rata dengan (n)
+7.perlihatkan rata rata

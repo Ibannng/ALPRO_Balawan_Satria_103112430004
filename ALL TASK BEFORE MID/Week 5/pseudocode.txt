@@ -1,0 +1,20 @@
+Program MenentukanFaktorBilangan
+
+Kamus
+   N, d : integer
+   s : boolean
+
+Algoritma
+   Output("Masukkan bilangan bulat positif N: ")
+   Input(N)
+
+   For d <- 1 To N Do
+      If N mod d = 0 Then
+         s <- true
+      Else
+         s <- false
+      End If
+      Output(d, s)
+   End For
+
+End Program

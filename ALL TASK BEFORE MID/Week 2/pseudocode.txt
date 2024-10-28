@@ -1,0 +1,15 @@
+Program HitungLuasDanKelilingLingkaran
+
+Kamus
+   r, luas, keliling : float
+
+Algoritma
+   Output("Masukan jari-jari lingkaran: ")
+   Input(r)
+   
+   luas <- 3.14 * r * r
+   keliling <- 2 * 3.14 * r
+   
+   Output("Hasil dari luas lingkaran dengan jari-jari:", r, "adalah", luas, "dan kelilingnya", keliling)
+
+End Program

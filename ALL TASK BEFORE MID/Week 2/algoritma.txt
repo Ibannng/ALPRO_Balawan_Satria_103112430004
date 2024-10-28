@@ -1,0 +1,8 @@
+Mulai.
+Deklarasikan variabel r untuk jari-jari lingkaran (float).
+Tampilkan pesan untuk meminta input jari-jari lingkaran (r).
+Input nilai r.
+Hitung luas lingkaran menggunakan rumus luas = 3.14 * r * r.
+Hitung keliling lingkaran menggunakan rumus keliling = 2 * 3.14 * r.
+Tampilkan hasil perhitungan luas dan keliling lingkaran.
+Selesai.
